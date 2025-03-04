@@ -49,7 +49,7 @@ afterEvaluate {
 
                 groupId = "com.github.chamodh98"
                 artifactId = "external-app-open"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
