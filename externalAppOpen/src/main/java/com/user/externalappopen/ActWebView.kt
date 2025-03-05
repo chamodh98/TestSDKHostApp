@@ -46,7 +46,7 @@ internal class ActWebView : AppCompatActivity() {
             val intent = Intent()
             intent.component = ComponentName("com.ipay.mobile", "com.ipay.mobile.v2.view.ActSplash")
 //            Add Extra
-            intent.data = Uri.parse("https://ipay.lk/pbiPay/$paramA/openApp")
+            intent.data = Uri.parse("https://ipay.lk/sdkPayment/$paramA")
 
             try {
                 startActivity(intent)
